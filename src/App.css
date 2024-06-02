@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body
+{
+    font-family: "Jost", sans-serif;
+}
+
+
+nav {
+    z-index: 10001 !important;
+}
+
+
+.w-40 {
+    width: 8rem !important;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 5rem;
+}
+
+.space-x-3> :not([hidden])~ :not([hidden]) {
+    --tw-space-x-reverse: 1 !important;
+}
+
+.space-x-14> :not([hidden])~ :not([hidden]) {
+    --tw-space-x-reverse: -1 !important;
+}
+
+.gradientBg{
+    background: linear-gradient(99deg, #a492d6 0%, #6d7ccf 100%);
+}
+ .btnPrimary{
+    @apply py-3 px-8 bg-secondary font-semibold text-white rounded  hover:bg-primary transition-all duration-300;
+ }
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 22%;
+    
+}
