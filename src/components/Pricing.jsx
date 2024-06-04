@@ -154,8 +154,8 @@ const Plans = () => {
                     chaque étape pour vous permettre d'accélérer votre activité.</p>
                 
                 <div className="w-full mx-auto mt-8 flex items-center justify-center">
-                            <button className="btnPrimary"onClick={handleClickQuote}>Proposez une mission</button>
-                        </div>
+                        <button className="btnPrimary"onClick={handleClickQuote}>Proposez une mission</button>
+                </div>
             </div>
 
                 
