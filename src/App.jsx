@@ -24,7 +24,7 @@ export default function App() {
       <BrowserRouter>
 
        <Routes>
-        <Route path="/" element={<Main />}/>
+        <Route path="*" element={<Main />}/>
           <Route path="/quote" element={<Quote />} />
           
       </Routes>
